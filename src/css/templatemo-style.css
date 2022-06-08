@@ -333,7 +333,17 @@ header .social-icon li a {
 	transition: all 0.4s ease-in-out;
 }
 
+#service .col-md-12 {
+	padding: 40px;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
 #service .col-md-4:hover {
+	background: #505050;
+}
+
+#service .col-md-12:hover {
 	background: #505050;
 }
 
