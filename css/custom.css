@@ -79,6 +79,7 @@
     overflow-y: hidden;
     height: 240px;
     pointer-events: none;
+    overflow-x: hidden;
 }
 
 #service .imagen {
@@ -86,6 +87,14 @@
     width: 100%;
     top: -45%;
     pointer-events: none;
+}
+
+.imagen2 {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    right: 13px;
+    padding-bottom: 30px;
 }
 
 .disabled {
