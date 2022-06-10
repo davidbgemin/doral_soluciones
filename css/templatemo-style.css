@@ -265,7 +265,7 @@ header .social-icon li a {
 	height: 60px;
 	font-size: 26px;
 	color: #009CDF;
-	font-weight: bold;
+	font-weight: lighter;
 	/* text-shadow:  0 0 0.2em #009CDF, 0 0 0.2em rgb(16, 17, 17),
 	0 0 0.2em rgb(241, 248, 248); */
 	text-shadow: -1px 1px black;
