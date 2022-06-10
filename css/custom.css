@@ -121,3 +121,11 @@
     object-fit: cover;
     /* pointer-events: none; */
 }
+
+
+
+a.btn.btn-default.wow.fadeInUp.animated {
+    position: relative;
+    top: 45px;
+
+}
