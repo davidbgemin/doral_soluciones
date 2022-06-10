@@ -6,7 +6,7 @@ function mostrarFoto(ruta) {
       // text: '',
       padding: '1em',
       imageUrl: ruta,
-      imageWidth: 900,
+      imageWidth: 700,
       imageHeight: 600,
       imageAlt: '',
     })
