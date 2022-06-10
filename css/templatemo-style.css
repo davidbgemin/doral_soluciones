@@ -13,7 +13,7 @@ body {
 }
 
 a {
-	color: #47C6F8;
+	color: #009CDF;
 }
 
 a:hover {
@@ -28,7 +28,7 @@ h2 {
 }
 
 h2 span {
-	color: #28a7e9;
+	color: #009CDF;
 	font-weight: bold;
 }
 
@@ -39,7 +39,8 @@ h2 span {
 #team,
 #service,
 #portfolio,
-#contact {
+#contact,
+#clients {
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
@@ -149,7 +150,7 @@ header {
 }
 
 header .fa {
-	color: #28a7e9;
+	color: #009CDF;
 }
 
 header span {
@@ -201,7 +202,7 @@ header .social-icon li a {
 }
 
 .navbar-default .navbar-nav>li>a.current {
-	color: #28A7E9;
+	color: #009CDF;
 }
 
 .templatemo-nav {
@@ -235,8 +236,8 @@ header .social-icon li a {
 }
 
 #home h1 span {
-	color: #28a7e9;
-	color: rgb(2, 158, 219);
+	color: #009CDF;
+	color: #009CDF;
 	
 	font-weight: bold;
 }
@@ -244,7 +245,7 @@ header .social-icon li a {
 #home .btn {
 	background: transparent;
 	border-radius: 2px;
-	color: #28a7e9;
+	color: #009CDF;
 	font-size: 16px;
 	font-weight: bold;
 	margin-top: 20px;
@@ -263,9 +264,11 @@ header .social-icon li a {
 .element {
 	height: 60px;
 	font-size: 26px;
-	color: rgb(0, 159, 225);
-	text-shadow:  0 0 0.2em rgb(0, 159, 225), 0 0 0.2em rgb(16, 17, 17),
-	0 0 0.2em rgb(241, 248, 248);
+	color: #009CDF;
+	font-weight: bold;
+	/* text-shadow:  0 0 0.2em #009CDF, 0 0 0.2em rgb(16, 17, 17),
+	0 0 0.2em rgb(241, 248, 248); */
+	text-shadow: -1px 1px black;
 
 }
 
@@ -364,7 +367,7 @@ header .social-icon li a {
 }
 
 #service h4 {
-	color: #28a7e9;
+	color: #009CDF;
 	font-weight: 600;
 	padding-top: 10px;
 	padding-bottom: 14px;
@@ -393,7 +396,7 @@ header .social-icon li a {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-	background: #28a7e9;
+	background: #009CDF;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -436,7 +439,7 @@ header .social-icon li a {
 
 #contact .form-control {
 	background: transparent;
-	border: 1px solid #28a7e9;
+	border: 1px solid #009CDF;
 	border-radius: 2px;
 	box-shadow: none;
 	color: #fff;
@@ -453,7 +456,7 @@ header .social-icon li a {
 }
 
 #contact input[type="submit"] {
-	background: #28a7e9;
+	background: #009CDF;
 	font-weight: bold;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
@@ -535,7 +538,7 @@ header .social-icon li a {
 }
 
 .social-icon li a:hover {
-	background: #28a7e9;
+	background: #009CDF;
 	border-color: transparent;
 }
 
@@ -554,7 +557,7 @@ header .social-icon li a {
 	}
 
 	#portfolio .portfolio-thumb .portfolio-overlay {
-		background: #28a7e9;
+		background: #009CDF;
 		top: 0;
 		left: 0;
 		right: 0;

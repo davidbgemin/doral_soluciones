@@ -75,29 +75,47 @@
     opacity: 0.8;
 }
 
-.contenedorImg {
-    overflow-y: hidden;
-    height: 240px;
-    pointer-events: none;
-    overflow-x: hidden;
-}
-
-#service .imagen {
-    position: relative;
-    width: 100%;
-    top: -45%;
-    pointer-events: none;
-}
-
-.imagen2 {
-    position: relative;
-    height: 100%;
-    overflow-x: hidden;
-    right: 13px;
-    padding-bottom: 30px;
-}
 
 .disabled {
     pointer-events: none;
     padding: 0px !important;
+}
+
+.overflows {
+    overflow: hidden;
+    padding: 0px;
+    height: 240px;
+    width: 50%;
+    margin: 0 auto;
+    pointer-events: none;
+}
+
+.overflows img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.overflows1 {
+    padding: 0px;
+    height: 240px;
+    width: 100%;
+    margin: 0 auto;
+    pointer-events: none;
+}
+
+
+.overflows1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#service .picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
 }
