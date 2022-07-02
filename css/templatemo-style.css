@@ -4,7 +4,7 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 */
 
 body {
-	background: #303030;
+	background: #3F3F3F;
 	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -265,11 +265,12 @@ header .social-icon li a {
 	height: 60px;
 	font-size: 26px;
 	color: #009CDF;
-	font-weight: lighter;
+	font-weight: 500;
 	/* text-shadow:  0 0 0.2em #009CDF, 0 0 0.2em rgb(16, 17, 17),
 	0 0 0.2em rgb(241, 248, 248); */
-	text-shadow: -1px 1px black;
-
+}
+.mascota {
+	text-shadow: 2px 2px 2px black;
 }
 
 /* end home */
@@ -353,6 +354,12 @@ header .social-icon li a {
 #service .active {
 	background: #505050;
 	padding: 40px;
+}
+
+#service .prueba {
+	margin-top: 0px;
+	padding-top: 0px;
+    pointer-events: none;
 }
 
 #service .fa {

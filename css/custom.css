@@ -7,18 +7,7 @@
     height: 300px;
 }
 
-.logo:hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-}
-.logo > img {
-    transition: all 0.5s ease-in-out;
-    overflow: auto;
-    /* width: 75%; */
-    max-width: 65%;
-    max-height: 65%;
 
-}
 
 /* start portfolio */
 #clients {
@@ -128,4 +117,52 @@ a.btn.btn-default.wow.fadeInUp.animated {
     position: relative;
     top: 45px;
 
+}
+
+
+
+#conoce .col-md-4:hover {
+	background: #505050 !important;
+}
+
+#conoce .col-md-12:hover {
+	background: #505050 !important;
+}
+
+#team .col-md-4 img{
+    width: 100%;
+    border: 1px solid green
+}
+
+#borrar *{
+    padding: 0px !important;
+    margin: 0px !important;
+    pointer-events: none;
+}
+#borrar .col-4 *{
+    border: 1px solid blue;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+
+#clients .fondo{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ddd;
+    background: #fff;
+    padding: 20px !important;
+}
+
+
+.logo:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.logo > img {
+    transition: all 0.5s ease-in-out;
+    overflow: auto;
+    /* width: 75%; */
+    max-width: 65%;
+    max-height: 65%;
 }
